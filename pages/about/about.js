@@ -1,7 +1,10 @@
 
 Page({
   onShareAppMessage: function () {
-  
+    return {
+      title: '有生之年系列！运维密码更新了！',
+      path: '/pages/about/about'
+    }
   },
   copyGithub:(res)=>{
     wx.setClipboardData({
