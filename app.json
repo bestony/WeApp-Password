@@ -1,36 +1,40 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/options/options"
   ],
-  "window":{
-    "navigationBarBackgroundColor":"#0D47A1",
-    "navigationBarTextStyle":"white",
-    "navigationBarTitleText":"运维密码",
-    "navigationStyle":"default",
-    "backgroundColor":"#E3F2FD",
-    "backgroundColorTop":"#E3F2FD",
-    "backgroundColorBottom":"#E3F2FD",
-    "enablePullDownRefresh":false
+  "window": {
+    "navigationBarBackgroundColor": "#0D47A1",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "运维密码",
+    "navigationStyle": "default",
+    "backgroundColor": "#E3F2FD",
+    "backgroundColorTop": "#E3F2FD",
+    "backgroundColorBottom": "#E3F2FD",
+    "enablePullDownRefresh": false
   },
   "tabBar": {
-    "color":"#cccccc",
-    "selectedColor":"#0D47A1",
-    "borderStyle":"light",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath":"images/tabBar/home.png",
-      "selectedIconPath":"images/tabBar/home_hl.png"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "设置",
-      "iconPath": "images/tabBar/options.png",
-      "selectedIconPath": "images/tabBar/options_hl.png"
-    }]
+    "color": "#cccccc",
+    "selectedColor": "#0D47A1",
+    "borderStyle": "light",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/home.png",
+        "selectedIconPath": "images/tabBar/home_hl.png"
+      },
+      {
+        "pagePath": "pages/options/options",
+        "text": "设置",
+        "iconPath": "images/tabBar/options.png",
+        "selectedIconPath": "images/tabBar/options_hl.png"
+      }
+    ]
   },
-  "networkTimeout":{
-    "request":60000,
-    "connectSocket":60000
+  "networkTimeout": {
+    "request": 60000,
+    "connectSocket": 60000
   },
-  "debug":true
+  "debug": true
 }
