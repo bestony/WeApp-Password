@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/options/options"
+    "pages/options/options",
+    "pages/feedback/feedback",
+    "pages/about/about"
   ],
   "window": {
     "navigationBarBackgroundColor": "#0D47A1",
