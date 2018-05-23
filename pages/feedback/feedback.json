@@ -1,1 +1,6 @@
-{}
+{
+  "usingComponents": {
+    "zan-field": "../../zanui/field/index",
+    "zan-button": "../../zanui/btn/index"
+  }
+}
