@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/options/options",
     "pages/feedback/feedback",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/tutorials/backup",
+    "pages/tutorials/totp"
   ],
   "window": {
     "navigationBarBackgroundColor": "#0D47A1",
