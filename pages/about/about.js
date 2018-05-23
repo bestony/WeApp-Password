@@ -22,5 +22,22 @@ Page({
 
       }
     })
+  },
+  enableDebug:(res)=>{
+    wx.setEnableDebug({
+      enableDebug: true,
+      success:(res)=>{
+        wx.showToast({
+          title: '打开成功'
+        })
+      }
+    })
+  },
+  disableDebug:(res)=>{
+    wx.setEnableDebug({
+      enableDebug: false,
+      success:(res)=>{
+      }
+    })
   }
 })

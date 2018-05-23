@@ -1,7 +1,7 @@
 <image class="logo" src="https://postimg.aliavv.com/markdown/2017-04-02-linuxcn_logo_r_512.fw.png"></image>
 <zan-row>
   <zan-col col="24" col-class="text-center">
-    <text class="zan-font-20 zan-c-blue">运维密码</text>
+    <text class="zan-font-20 zan-c-blue" bindlongpress="enableDebug" bindtap="disableDebug">运维密码</text>
   </zan-col>
   <zan-col col="24">
     <view class='mg10'></view>
