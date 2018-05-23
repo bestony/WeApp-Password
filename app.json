@@ -36,5 +36,5 @@
     "request": 60000,
     "connectSocket": 60000
   },
-  "debug": true
+  "debug": false
 }

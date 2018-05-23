@@ -1,2 +1,29 @@
-<!--pages/options/options.wxml-->
-<text>pages/options/options.wxml</text>
+<zan-panel title='云服务'>
+<view>
+    <zan-cell title="WebDAV 备份" label="支持坚果云" isLink="{{true}}" url="../index/index" linkType="navigateTo"></zan-cell>
+  </view>
+  <view class="hr"></view>
+  <view>
+    <zan-cell title="TOTP Cloud" label="即将上线，敬请期待"></zan-cell>
+  </view>
+</zan-panel>
+
+<zan-panel title="使用帮助">
+  <view>
+    <zan-cell title="TOTP 使用说明" label="如何在 Github 上使用运维密码" isLink="{{true}}" url="../index/index" linkType="navigateTo"></zan-cell>
+  </view>
+  <view class="hr"></view>
+  <view>
+    <zan-cell title="备份使用说明" label="如何使用云服务器备份口令"></zan-cell>
+  </view>
+</zan-panel>
+
+<zan-panel title="意见反馈">
+  <view>
+    <zan-cell title="意见反馈" label="期待您的反馈" isLink="{{true}}" url="../index/index" linkType="navigateTo"></zan-cell>
+  </view>
+  <view class="hr"></view>
+  <view>
+    <zan-cell title="关于我们" label="关于 Linux 中国"></zan-cell>
+  </view>
+</zan-panel>

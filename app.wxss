@@ -9,3 +9,7 @@
 .light{
   color:#90CAF9;
 }
+
+.hr{
+  border-bottom: solid 1px #eee;
+}

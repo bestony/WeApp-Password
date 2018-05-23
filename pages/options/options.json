@@ -1,1 +1,6 @@
-{}
+{
+  "usingComponents": {
+    "zan-panel": "../../zanui/panel/index",
+    "zan-cell": "../../zanui/cell/index"
+  }
+}
