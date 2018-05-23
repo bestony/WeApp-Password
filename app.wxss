@@ -1,0 +1,11 @@
+@import 'zanui/index.wxss'
+
+.dark{
+  color: #0D47A1; 
+}
+.normal{
+  color:#2196F3;
+}
+.light{
+  color:#90CAF9;
+}
