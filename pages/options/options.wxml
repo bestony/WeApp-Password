@@ -10,11 +10,11 @@
 
 <zan-panel title="使用帮助">
   <view>
-    <zan-cell title="TOTP 使用说明" label="如何在 Github 上使用运维密码" isLink="{{true}}" url="../index/index" linkType="navigateTo"></zan-cell>
+    <zan-cell title="TOTP 使用说明" label="如何在网站上使用运维密码" isLink="{{true}}" url="../index/index" linkType="navigateTo"></zan-cell>
   </view>
   <view class="hr"></view>
   <view>
-    <zan-cell title="备份使用说明" label="如何使用云服务备份口令"></zan-cell>
+    <zan-cell title="备份使用说明" label="如何使用云服务备份数据" isLink="{{true}}" url="../index/index" linkType="navigateTo"></zan-cell>
   </view>
 </zan-panel>
 
