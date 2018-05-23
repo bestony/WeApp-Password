@@ -14,7 +14,7 @@
   </view>
   <view class="hr"></view>
   <view>
-    <zan-cell title="备份使用说明" label="如何使用云服务器备份口令"></zan-cell>
+    <zan-cell title="备份使用说明" label="如何使用云服务备份口令"></zan-cell>
   </view>
 </zan-panel>
 
