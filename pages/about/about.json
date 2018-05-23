@@ -1,1 +1,8 @@
-{}
+{
+  "usingComponents": {
+    "zan-row": "../../zanui/row/index",
+    "zan-col": "../../zanui/col/index",
+    "zan-panel": "../../zanui/panel/index",
+    "zan-cell": "../../zanui/cell/index"
+  }
+}

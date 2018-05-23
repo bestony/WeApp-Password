@@ -1,2 +1,55 @@
-<!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<image class="logo" src="https://postimg.aliavv.com/markdown/2017-04-02-linuxcn_logo_r_512.fw.png"></image>
+<zan-row>
+  <zan-col col="24" col-class="text-center">
+    <text class="zan-font-20 zan-c-blue">运维密码</text>
+  </zan-col>
+  <zan-col col="24">
+    <view class='mg10'></view>
+  </zan-col>
+  <zan-col col="12" col-class="text-center">
+    <text class="zan-font-16 zan-c-gray-darker">软件版本 1.1.0</text>
+  </zan-col>
+  <zan-col col="12" col-class="text-center">
+    <text class="zan-font-16 zan-c-gray-darker">数据版本 3.0</text>
+  </zan-col>
+</zan-row>
+<zan-panel title='主创团队'>
+  <view>
+    <zan-cell title="产品经理" value="@wxy"></zan-cell>
+  </view>
+  <view class="hr"></view>
+  <view>
+    <zan-cell title="开发者" value="@bestony"></zan-cell>
+  </view>
+  <view class="hr"></view>
+  <view>
+    <zan-cell title="设计师" value="@betty"></zan-cell>
+  </view>
+</zan-panel>
+<zan-panel title='参考项目'>
+  <view>
+    <zan-cell title="TOTP RFC Draft" label="http://tools.ietf.org/id/draft-mraihi-totp-timebased-06.html"></zan-cell>
+  </view>
+  <view class="hr"></view>
+  <view>
+    <zan-cell title="Google Authenticator" label="https://github.com/google/google-authenticator"></zan-cell>
+  </view>
+</zan-panel>
+<zan-panel title='开源信息'>
+  <view>
+    <zan-cell title="产品主页" label="https://otpcloud.linux.cn" bindtap="copyHome"></zan-cell>
+  </view>
+  <view class="hr"></view>
+  <view>
+    <zan-cell title="Github" label="https://github.com/LCTT/WeApp-Password" bindtap="copyGithub"></zan-cell>
+  </view>
+  <view class="hr"></view>
+  <view>
+    <zan-cell title="License" label="AGPL-3.0"></zan-cell>
+  </view>
+</zan-panel>
+<zan-toptips
+  id="zan-toptips"
+  content="{{ content }}"
+  is-show="{{ $zanui.toptips.show }}"
+/>

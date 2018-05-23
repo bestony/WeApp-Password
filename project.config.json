@@ -33,12 +33,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "详情页调试",
-					"pathName": "pages/options/options"
+					"pathName": "pages/options/options",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "关于页面调试",
+					"pathName": "pages/about/about"
 				}
 			]
 		}

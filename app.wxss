@@ -13,3 +13,10 @@
 .hr{
   border-bottom: solid 1px #eee;
 }
+.text-center{
+  display: flex;
+  justify-content:center;
+}
+.mg10{
+  margin: 10px auto;
+}
