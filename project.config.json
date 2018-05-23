@@ -36,8 +36,8 @@
 			"current": 2,
 			"list": [
 				{
-					"id": -1,
-					"name": "详情页调试",
+					"id": 0,
+					"name": "设置页面调试",
 					"pathName": "pages/options/options",
 					"query": ""
 				},
@@ -50,7 +50,8 @@
 				{
 					"id": -1,
 					"name": "反馈页面调试",
-					"pathName": "pages/feedback/feedback"
+					"pathName": "pages/feedback/feedback",
+					"query": ""
 				}
 			]
 		}

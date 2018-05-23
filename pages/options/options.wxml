@@ -20,10 +20,10 @@
 
 <zan-panel title="意见反馈">
   <view>
-    <zan-cell title="意见反馈" label="期待您的反馈" isLink="{{true}}" url="../index/index" linkType="navigateTo"></zan-cell>
+    <zan-cell title="意见反馈" label="期待您的反馈" isLink="{{true}}" url="../feedback/feedback" linkType="navigateTo"></zan-cell>
   </view>
   <view class="hr"></view>
   <view>
-    <zan-cell title="关于我们" label="关于 Linux 中国"></zan-cell>
+    <zan-cell title="关于我们" label="关于 Linux 中国" isLink="{{true}}" url="../about/about" linkType="navigateTo"></zan-cell>
   </view>
 </zan-panel>
