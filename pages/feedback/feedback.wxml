@@ -3,5 +3,6 @@
   </zan-field>
   <zan-field title="反馈意见" placeholder="您的反馈意见" type="textarea" right="{{true}}" name="feedback">
   </zan-field>
+  <text style='padding:30rpx' class="zan-font-14 zan-c-gray-darker">提醒：如果您是报告 Bug ,填写联系方式可以让我们更快的联系到您，帮您解决问题。</text>
   <button form-type='submit'>提交</button>
 </form>
